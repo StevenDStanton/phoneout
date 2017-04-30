@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+    <Gather action="user-input.php" numDigits="11" finishOnKey="#">
+        <Play/phoneout/audio/enterphonenumber.mp3</Play>
+    </Gather>
+    <!-- If customer doesn't input anything, prompt and try again. -->
+    <Play>/phoneout/audio/didnotgetresponse.mp3</Play>
+    <Redirect>incoming_call.xml</Redirect>
+</Response>
